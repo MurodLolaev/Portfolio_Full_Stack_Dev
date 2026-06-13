@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лолаев Мурод | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/CSS/styles.css">
+</head>
+<body>
+    <!-- Шапка -->
+     <header class="fixed top-0 left-0 w-full z-50 bg-slate-900/60 backdrop-blur-lg border-b border-white/10 px-6 py-4 flex justify-between items-center transition-all duration-300">
+  <div class="text-xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+    Full Stack Developer
+  </div>
+
+  <nav class="hidden md:flex space-x-8">
+    <a href="#main" class="text-gray-300 hover:text-cyan-400 hover:scale-110 transition-all duration-300 ease-in-out font-medium">Главная</a>
+    <a href="#resume" class="text-gray-300 hover:text-cyan-400 hover:scale-110 transition-all duration-300 ease-in-out font-medium">Резюме</a>
+    <a href="#certificates" class="text-gray-300 hover:text-cyan-400 hover:scale-110 transition-all duration-300 ease-in-out font-medium">Сертификаты</a>
+    <a href="#projects" class="text-gray-300 hover:text-cyan-400 hover:scale-110 transition-all duration-300 ease-in-out font-medium">Проекты</a>
+    <a href="#contacts" class="text-gray-300 hover:text-cyan-400 hover:scale-110 transition-all duration-300 ease-in-out font-medium">Контакты</a>
+  </nav>
+</header>
+    <!--  Главная -->
+    <section id="main" class="min-h-screen pt-24 flex flex-col md:flex-row items-center justify-center px-6 max-w-7xl mx-auto gap-12">
+  <div class="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-cyan-500/50 shadow-[0_0_30px_rgba(6,182,212,0.5)] transition-transform duration-500 hover:rotate-3">
+    <img src="/Files/IMG/murod.jpg" alt="Мурод Лолаев" class="w-full h-full object-cover">
+  </div>
+  
+  <div class="flex-1 text-center md:text-left">
+    <h1 class="text-6xl font-bold text-slate-900">
+      Привет, я <span class="text-cyan-500">Мурод</span>
+    </h1>
+    <br>
+    <p class="text-slate-700 text-xl leading-relaxed">
+      Full Stack разработчик с опытом коммерческой разработки более 2.5 лет. Уверенно работаю как на Backend, так и на Frontend — разрабатываю 
+      серверные приложения и проектирую базы данных, строю интерфейсы. Владею инструментами полного цикла разработки: от чистый архитектуры и работы 
+      с базой данных до вёрстки и логики на стороне клиента. Пишу чистый, поддерживаемый код, работаю в командный разработки.
+        Готов брать задачи любого уровня и доводить их до результата..
+    </p>
+    <div class="flex flex-wrap gap-3 justify-center md:justify-start">
+      <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-cyan-400 text-sm">.NET 8/9</span>
+      <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-cyan-400 text-sm">ASP.NET Core</span>
+      <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-cyan-400 text-sm">EF Core & SQL</span>
+      <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-cyan-400 text-sm">HTML & CSS</span>
+      <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-cyan-400 text-sm">React & JS</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- 3. Резюме (Стилизовано под PDF-лист) -->
+<section id="resume" class="py-20 px-4 max-w-5xl mx-auto">  
+  <h2 class="text-3xl font-bold text-black mb-12 text-center">Резюме</h2>
+  <!-- Эмуляция листа А4 / PDF -->
+  <div class="w-full max-w-4xl mx-auto bg-white text-slate-900 rounded-2xl shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] p-8 md:p-12 transition-transform duration-300 hover:scale-[1.01]">
+    
+    <!-- Шапка резюме (ФИО и Контакты) -->
+    <div class="border-b-2 border-slate-200 pb-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+      <div>
+        <h3 class="text-3xl font-black tracking-tight text-slate-900">Лолаев Мурод</h3>
+        <p class="text-lg font-bold text-cyan-600 mt-1">Full Stack Developer</p>
+      </div>
+      <div class="text-sm text-slate-600 space-y-1 font-medium">
+        <p>📍 г. Душанбе, Таджикистан</p>
+        <p>📱 +992 985 63 05 99</p>
+        <p> @Murod99L (Telegram)</p>
+      </div>
+    </div>
+
+    <!-- Блок: О себе -->
+    <div class="mt-8">
+      <h4 class="text-sm font-bold uppercase tracking-wider text-slate-400 mb-2">О себе</h4>
+      <p class="text-slate-700 leading-relaxed">
+       Full Stack разработчик с опытом коммерческой разработки более 2.5 лет. Уверенно работаю как на Backend, так и на Frontend — разрабатываю 
+      серверные приложения и проектирую базы данных, строю интерфейсы. Владею инструментами полного цикла разработки: от чистый архитектуры и работы 
+      с базой данных до вёрстки и логики на стороне клиента. Пишу чистый, поддерживаемый код, работаю в командный разработки.      </p>
+    </div>
+
+    <!-- Блок: Навыки -->
+<!-- Навыки -->
+<div class="skills-section mt-8">
+
+    <h4 class="section-title">
+        Навыки
+    </h4>
+
+    <div class="skills-grid">
+
+        <!-- Backend -->
+        <div class="skill-card">
+            <div class="skill-header">
+                ⚙️ Backend
+            </div>
+
+            <div class="skill-list">
+                <span class="skill-tag">C#</span>
+                <span class="skill-tag">ASP.NET Core</span>
+                <span class="skill-tag">MVC</span>
+                <span class="skill-tag">REST API</span>
+                <span class="skill-tag">Clean Architecture</span>
+                <span class="skill-tag">Async Programming</span>
+            </div>
+        </div>
+
+        <!-- Database -->
+        <div class="skill-card">
+            <div class="skill-header">
+                🗄️ Database
+            </div>
+
+            <div class="skill-list">
+                <span class="skill-tag">SQL Server</span>
+                <span class="skill-tag">MySQL</span>
+                <span class="skill-tag">Entity Framework Core</span>
+                <span class="skill-tag">Dapper</span>
+                <span class="skill-tag">ADO.NET</span>
+            </div>
+        </div>
+
+        <!-- Frontend -->
+        <div class="skill-card">
+            <div class="skill-header">
+                🎨 Frontend
+            </div>
+
+            <div class="skill-list">
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Tailwind CSS</span>
+            </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-card">
+            <div class="skill-header">
+                🛠️ Tools
+            </div>
+
+            <div class="skill-list">
+                <span class="skill-tag">Postman</span>
+                <span class="skill-tag">Swagger</span>
+                <span class="skill-tag">JSON</span>
+                <span class="skill-tag">SSMS</span>
+                <span class="skill-tag">Visual Studio</span>
+                <span class="skill-tag">VS Code</span>
+                <span class="skill-tag">Rider</span>
+                <span class="skill-tag">Serilog</span>
+                <span class="skill-tag">xUnit</span>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+    <!-- Блок: Опыт работы -->
+    <div class="mt-8">
+      <h4 class="text-sm font-bold uppercase tracking-wider text-slate-400 mb-4">Опыт работы</h4>
+      <div class="space-y-6 relative before:absolute before:inset-y-1 before:left-3 before:w-0.5 before:bg-slate-200">
+        
+        <!-- Опыт 1: Шукр Молия -->
+        <div class="relative pl-8">
+          <div class="absolute left-[7px] top-2 w-3 h-3 rounded-full bg-cyan-500 ring-4 ring-white"></div>
+          <div class="flex flex-col sm:flex-row sm:justify-between items-start mb-1">
+            <h5 class="font-bold text-slate-900 text-lg">C# Backend Developer</h5>
+            <span class="text-sm font-semibold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full mt-1 sm:mt-0">Апрель 2026 — Н.В.</span>
+          </div>
+          <p class="text-sm font-bold text-cyan-600 mb-2">ЗАО МДО «Шукр Молия» (Микрофинансовый банк)</p>
+          <p class="text-slate-600 text-sm leading-relaxed">Разработка и оптимизация бэкенд-сервисов микрофинансовой организации на C#/.NET.</p>
+        </div>
+
+        <!-- Опыт 2: RowTech -->
+        <div class="relative pl-8">
+          <div class="absolute left-[7px] top-2 w-3 h-3 rounded-full bg-slate-400 ring-4 ring-white"></div>
+          <div class="flex flex-col sm:flex-row sm:justify-between items-start mb-1">
+            <h5 class="font-bold text-slate-900 text-lg">C# Backend Developer</h5>
+            <span class="text-sm font-semibold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full mt-1 sm:mt-0">Октябрь 2024 — Январь 2026</span>
+          </div>
+          <p class="text-sm font-bold text-cyan-600 mb-2">Технологии Боми Чахон (RowTech)</p>
+          <p class="text-slate-600 text-sm leading-relaxed mb-2">
+            Участие в проектировании и разработке веб-сайтов для различных сервисов и услуг.
+          </p>
+          <p class="text-xs font-semibold text-slate-500">
+             Стек: C#, ASP.NET Core 8/9, SQL Server, Entity Framework Core, REST API, JSON, Git/GitLab, Swagger, Postman, Rider.
+          </p>
+        </div>
+      
+      </div>
+    </div>
+
+    <!-- Блок: Образование и курсы -->
+    <div class="mt-8 pt-8 border-t border-slate-200">
+      <h4 class="text-sm font-bold uppercase tracking-wider text-slate-400 mb-4">Образование и Курсы</h4>
+      <div class="space-y-4">
+        <!-- Алиф Академия -->
+        <div class="flex flex-col sm:flex-row sm:justify-between items-start">
+          <div>
+            <h5 class="font-bold text-slate-900">Frontend Разработчик</h5>
+            <p class="text-sm text-slate-600">Алиф Академия</p>
+            <p class="text-xs text-slate-500 mt-1">Изучаемые технологии: HTML, CSS, Tailwind CSS, JavaScript, React, Next.js, TypeScript.</p>
+          </div>
+          <span class="text-xs font-bold text-cyan-600 bg-cyan-50 px-2.5 py-1 rounded-md mt-1 sm:mt-0">2026</span>
+        </div>
+
+        <!-- Iron Programmer -->
+        <div class="flex flex-col sm:flex-row sm:justify-between items-start">
+          <div>
+            <h5 class="font-bold text-slate-900">.NET Backend Developer</h5>
+            <p class="text-sm text-slate-600">Осетинская Школа Программирования «Iron Programmer»</p>
+            <p class="text-xs text-slate-500 mt-1">Курс: от основ программирования до коммерческого бэкенда на ASP.NET.</p>
+          </div>
+          <span class="text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-md mt-1 sm:mt-0">2022 — 2024</span>
+        </div>
+
+        <!-- Кулябский Университет -->
+        <div class="flex flex-col sm:flex-row sm:justify-between items-start">
+          <div>
+            <h5 class="font-bold text-slate-900">Менеджмент туризма (Незаконченное высшее)</h5>
+            <p class="text-sm text-slate-600">Кулябский государственный университет им. А. Рудаки</p>
+            <p class="text-xs text-slate-500 mt-1">С 3-го курса взял академический отпуск по семейным обстоятельствам.</p>
+          </div>
+          <span class="text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-md mt-1 sm:mt-0">2017 — 2019</span>
+        </div>
+      </div>
+    </div>   
+    <br>
+    <!-- Заголовок секции и кнопка скачивания -->
+  <div class="flex flex-col sm:flex-row justify-between items-center gap-4 mb-8 max-w-4xl mx-auto">    
+    <a href="/Files/Doc/CV-Murod.docx"
+        download
+        title="Скачать резюме"
+        class="flex items-center gap-2 bg-cyan-500 hover:bg-cyan-600 text-slate-900 font-semibold px-5 py-2.5 rounded-xl transition-all shadow-lg hover:shadow-cyan-500/50">
+            
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v1m-4-4l-4 4m0 0l-4-4m4 4V4">
+                </path>
+            </svg>
+
+    </a>
+  </div> 
+  </div>  
+</section>
+
+<!-- Сертификаты -->
+<section id="certificates" class="py-20 px-6 max-w-6xl mx-auto">
+  <h2 class="text-3xl font-bold text-black mb-12 text-center">Сертификаты</h2>
+  <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+    
+    <!-- 1 Войти в IT -->
+    <div class="group relative overflow-hidden rounded-2xl border border-black/10 bg-gray-50 p-4 cursor-pointer hover:border-cyan-500/50 transition-all duration-300" 
+         onclick="openModal('/Files/Certificate/stepik-certificate-178163-7f94731_page-0001.jpg')">
+      
+      <div class="overflow-hidden rounded-xl mb-4 bg-gray-900 flex items-center justify-center h-48">
+        <img src="/Files/Certificate/enter.jpg" 
+             alt="Войти в IT" 
+             class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+      </div>
+      
+      <h3 class="text-gray-800 font-medium group-hover:text-cyan-600 transition-colors duration-300">Войти в IT</h3>
+    </div>
+
+    <!-- 2 Основа программирования-->
+     <div class="group relative overflow-hidden rounded-2xl border border-black/10 bg-gray-50 p-4 cursor-pointer hover:border-cyan-500/50 transition-all duration-300" 
+          onclick="openModal('/Files/Certificate/stepik-certificate-178163-7f94731_page-0001.jpg')">
+      
+      <div class="overflow-hidden rounded-xl mb-4 bg-gray-900 flex items-center justify-center h-48">
+        <img src="/Files/Certificate/osnova.jpg" 
+             alt="Войти в IT" 
+             class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+      </div>
+      
+      <h3 class="text-gray-800 font-medium group-hover:text-cyan-600 transition-colors duration-300">Основы программирования</h3>
+    </div>
+
+     <!-- 3 PRO C# -->
+     <div class="group relative overflow-hidden rounded-2xl border border-black/10 bg-gray-50 p-4 cursor-pointer hover:border-cyan-500/50 transition-all duration-300" 
+         onclick="openModal('/Files/Certificate/stepik-certificate-178163-7f94731_page-0001.jpg')">
+      
+      <div class="overflow-hidden rounded-xl mb-4 bg-gray-900 flex items-center justify-center h-48">
+        <img src="/Files/Certificate/prodvinut.jpg" 
+             alt="Войти в IT" 
+             class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+      </div>
+      
+      <h3 class="text-gray-800 font-medium group-hover:text-cyan-600 transition-colors duration-300">PRO C#. Для профессионалов</h3>
+    </div>
+
+     <!-- 4 Алгоритмы поиска-->
+     <div class="group relative overflow-hidden rounded-2xl border border-black/10 bg-gray-50 p-4 cursor-pointer hover:border-cyan-500/50 transition-all duration-300" 
+         onclick="openModal('/Files/Certificate/stepik-certificate-178163-7f94731_page-0001.jpg')">
+      
+      <div class="overflow-hidden rounded-xl mb-4 bg-gray-900 flex items-center justify-center h-48">
+        <img src="/Files/Certificate/algorothm.jpg" 
+             alt="Войти в IT" 
+             class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+      </div>
+      
+      <h3 class="text-gray-800 font-medium group-hover:text-cyan-600 transition-colors duration-300">Алгоритмы поиска и сортировки</h3>
+    </div>
+
+     <!-- 5 Git -->
+     <div class="group relative overflow-hidden rounded-2xl border border-black/10 bg-gray-50 p-4 cursor-pointer hover:border-cyan-500/50 transition-all duration-300" 
+         onclick="openModal('/Files/Certificate/stepik-certificate-178163-7f94731_page-0001.jpg')">
+      
+      <div class="overflow-hidden rounded-xl mb-4 bg-gray-900 flex items-center justify-center h-48">
+        <img src="/Files/Certificate//git.jpg" 
+             alt="Войти в IT" 
+             class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+      </div>
+      
+      <h3 class="text-gray-800 font-medium group-hover:text-cyan-600 transition-colors duration-300">PRO C#. Git</h3>
+    </div>
+
+     <!-- 6 Asp NET -->
+     <div class="group relative overflow-hidden rounded-2xl border border-black/10 bg-gray-50 p-4 cursor-pointer hover:border-cyan-500/50 transition-all duration-300" 
+         onclick="openModal('/Files/Certificate/stepik-certificate-178163-7f94731_page-0001.jpg')">
+      
+      <div class="overflow-hidden rounded-xl mb-4 bg-gray-900 flex items-center justify-center h-48">
+        <img src="/Files/Certificate/asp.jpg" 
+             alt="Войти в IT" 
+             class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+      </div>
+      
+      <h3 class="text-gray-800 font-medium group-hover:text-cyan-600 transition-colors duration-300">PRO C#. ASP NET</h3>
+    </div>
+
+     <!-- 7 PRO C# Clean Code  -->
+     <div class="group relative overflow-hidden rounded-2xl border border-black/10 bg-gray-50 p-4 cursor-pointer hover:border-cyan-500/50 transition-all duration-300" 
+         onclick="openModal('/Files/Certificate/stepik-certificate-178163-7f94731_page-0001.jpg')">
+      
+      <div class="overflow-hidden rounded-xl mb-4 bg-gray-900 flex items-center justify-center h-48">
+        <img src="/Files/Certificate/clean.jpg" 
+             alt="Войти в IT" 
+             class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+      </div>
+      
+      <h3 class="text-gray-800 font-medium group-hover:text-cyan-600 transition-colors duration-300">PRO C#. Чистый код</h3>
+    </div>
+
+     <!-- 8 PRO C#. SQL -->
+     <div class="group relative overflow-hidden rounded-2xl border border-black/10 bg-gray-50 p-4 cursor-pointer hover:border-cyan-500/50 transition-all duration-300" 
+         onclick="openModal('/Files/Certificate/stepik-certificate-178163-7f94731_page-0001.jpg')">
+      
+      <div class="overflow-hidden rounded-xl mb-4 bg-gray-900 flex items-center justify-center h-48">
+        <img src="/Files/Certificate/sql.jpg" 
+             alt="Войти в IT" 
+             class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+      </div>
+      
+      <h3 class="text-gray-800 font-medium group-hover:text-cyan-600 transition-colors duration-300">PRO C#. SQL</h3>
+    </div>
+
+    <!-- 9 PRO C#. LINQ -->
+    <div class="group relative overflow-hidden rounded-2xl border border-black/10 bg-gray-50 p-4 cursor-pointer hover:border-cyan-500/50 transition-all duration-300" 
+         onclick="openModal('/Files/Certificate/stepik-certificate-178163-7f94731_page-0001.jpg')">
+      
+      <div class="overflow-hidden rounded-xl mb-4 bg-gray-900 flex items-center justify-center h-48">
+        <img src="/Files/Certificate/sql.jpg" 
+             alt="Войти в IT" 
+             class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+      </div>
+      
+      <h3 class="text-gray-800 font-medium group-hover:text-cyan-600 transition-colors duration-300">PRO C#. LINQ</h3>
+    </div>
+
+    <!-- 10 Alif Academy -->
+    <div class="group relative overflow-hidden rounded-2xl border border-black/10 bg-gray-50 p-4 cursor-pointer hover:border-cyan-500/50 transition-all duration-300" 
+         onclick="openModal('/Files/Certificate/stepik-certificate-178163-7f94731_page-0001.jpg')">
+      
+      <div class="overflow-hidden rounded-xl mb-4 bg-gray-900 flex items-center justify-center h-48">
+        <img src="/Files/Certificate/sql.jpg" 
+             alt="Войти в IT" 
+             class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+      </div>
+      
+      <h3 class="text-gray-800 font-medium group-hover:text-cyan-600 transition-colors duration-300">Frontend Developer</h3>
+    </div>
+
+  </div>
+</section>
+
+<div id="certModal" class="fixed inset-0 z-50 hidden bg-black/90 backdrop-blur-sm flex items-center justify-center p-4 opacity-0 transition-opacity duration-300" onclick="closeModal()">
+  <button class="absolute top-6 right-6 text-white text-4xl font-light hover:text-cyan-400 transition-colors">&times;</button>
+  
+  <img id="modalImg" src="" alt="Сертификат на весь экран" class="max-w-full max-h-[90vh] rounded-lg shadow-2xl object-contain transform scale-95 transition-transform duration-300" onclick="event.stopPropagation()">
+</div>
+
+<!-- Проекты -->
+<section id="projects" class="py-20 px-6 max-w-6xl mx-auto">
+  <h2 class="text-3xl font-bold text-black mb-12 text-center">Мои Проекты</h2>
+  <div class="grid md:grid-cols-2 gap-8">
+    
+    <!-- 1 -->
+    <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-[0_10px_30px_rgba(6,182,212,0.1)] transition-all duration-300 group">
+    <img src="/Files/Project/online.jpg" alt="Проект" class="w-full h-48 object-cover group-hover:scale-102 transition-transform">
+    
+        <div class="p-6">
+            <div class="flex justify-between items-start mb-2">
+            <h3 class="text-xl font-bold text-cyan-500 group-hover:text-cyan-600 transition-colors">Онлайн магазин</h3>
+            
+            <a href="https://github.com/MurodLolaev/Online_Shop" target="_blank" class="text-gray-500 hover:text-black transition-colors">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.0.069-.0.0.01 1.001.071 1.527 1.07 1.527 1.524 1.472 1.084 1.83.827.15-.108.24-.27.24-.447-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </a>
+            </div>
+            
+            <p class="text-sm text-black mb-4 font-normal leading-relaxed">Это онлайн магазин, разработанный на языке программирования C# с использованием фреймворка .NET. Магазин предоставляет возможность пользователям просматривать и покупать товары, добавлять их в корзину,и в избраное, а также оформлять заказы.Добавлять товары и удалять а так же авторизация и регистрации , и добавление ролей ,категории и можно изменить статус заказа.</p>
+            
+            <div class="flex flex-wrap gap-2">
+            <span class="text-xs bg-cyan-500/10 text-cyan-600 font-medium px-2.5 py-1 rounded-md">C#</span>
+            <span class="text-xs bg-cyan-500/10 text-cyan-600 font-medium px-2.5 py-1 rounded-md">ASP.NET 8</span>
+            <span class="text-xs bg-cyan-500/10 text-cyan-600 font-medium px-2.5 py-1 rounded-md">REST API</span>
+            <span class="text-xs bg-cyan-500/10 text-cyan-600 font-medium px-2.5 py-1 rounded-md">Entity Framework</span>
+            <span class="text-xs bg-emerald-500/10 text-emerald-600 font-medium px-2.5 py-1 rounded-md">SQL Server</span>
+            </div> 
+        </div>
+    </div>
+
+        <!-- 2 -->
+    <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-[0_10px_30px_rgba(6,182,212,0.1)] transition-all duration-300 group">
+    <img src="/Files/Project/portfolio.png" alt="Проект" class="w-full h-48 object-cover group-hover:scale-102 transition-transform">
+    
+        <div class="p-6">
+            <div class="flex justify-between items-start mb-2">
+            <h3 class="text-xl font-bold text-cyan-500 group-hover:text-cyan-600 transition-colors">Портфолио</h3>
+            
+            <a href="https://github.com/MurodLolaev/MyPortfolio" target="_blank" class="text-gray-500 hover:text-black transition-colors">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.0.069-.0.0.01 1.001.071 1.527 1.07 1.527 1.524 1.472 1.084 1.83.827.15-.108.24-.27.24-.447-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </a>
+            </div>
+            
+            <p class="text-sm text-black mb-4 font-normal leading-relaxed">Портфолио написано на языка программирование С# Состоит из три страница :
+
+                        Обо мне о мои знание и исползуемие технология
+                        Мои Проекты на это страница можно добавить свои проекти и его ссилка на GitHub а также удаление проекта
+                        Мои Контакти на это страница добавил свои номер телфон и GitHub</p>
+            
+            <div class="flex flex-wrap gap-2">
+            <span class="text-xs bg-cyan-500/10 text-cyan-600 font-medium px-2.5 py-1 rounded-md">C#</span>
+            <span class="text-xs bg-cyan-500/10 text-cyan-600 font-medium px-2.5 py-1 rounded-md">ASP.NET MVC</span>           
+            <span class="text-xs bg-cyan-500/10 text-cyan-600 font-medium px-2.5 py-1 rounded-md">Entity Framework</span>
+            <span class="text-xs bg-emerald-500/10 text-emerald-600 font-medium px-2.5 py-1 rounded-md">SQL Server</span>
+            </div> 
+        </div>
+    </div>
+
+    <!-- 3 -->
+
+    <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-[0_10px_30px_rgba(6,182,212,0.1)] transition-all duration-300 group">
+    <img src="/Files/Project/bot.jpg" alt="Проект" class="w-full h-48 object-cover group-hover:scale-102 transition-transform">
+    
+        <div class="p-6">
+            <div class="flex justify-between items-start mb-2">
+            <h3 class="text-xl font-bold text-cyan-500 group-hover:text-cyan-600 transition-colors">Телеграм бот</h3>
+            
+            <a href="https://github.com/MurodLolaev/TelegramBot" target="_blank" class="text-gray-500 hover:text-black transition-colors">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.0.069-.0.0.01 1.001.071 1.527 1.07 1.527 1.524 1.472 1.084 1.83.827.15-.108.24-.27.24-.447-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </a>
+            </div>
+            
+            <p class="text-sm text-black mb-4 font-normal leading-relaxed">Этот проект представляет собой телеграм-бота, разработанного на C# .Net 8.0 с использованием библиотеки Telegram.Bot 19.0.0. Основная задача бота - помочь новичкам, которые хотят стать разработчиками C#.</p>
+            
+            <div class="flex flex-wrap gap-2">
+            <span class="text-xs bg-cyan-500/10 text-cyan-600 font-medium px-2.5 py-1 rounded-md">C# .Net 8.0</span>            
+            <span class="text-xs bg-emerald-500/10 text-emerald-600 font-medium px-2.5 py-1 rounded-md">Telegram.Bot 19.0.0</span>
+            </div> 
+        </div>
+    </div>
+
+      <!-- 4 -->
+
+    <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-[0_10px_30px_rgba(6,182,212,0.1)] transition-all duration-300 group">
+    <img src="/Files/Project/import.jpg" alt="Проект" class="w-full h-48 object-cover group-hover:scale-102 transition-transform">
+    
+        <div class="p-6">
+            <div class="flex justify-between items-start mb-2">
+            <h3 class="text-xl font-bold text-cyan-500 group-hover:text-cyan-600 transition-colors">Импорт и экспорт Excel-файлов </h3>
+            
+            <a href="https://github.com/MurodLolaev/MyCompany/tree/master" target="_blank" class="text-gray-500 hover:text-black transition-colors">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.0.069-.0.0.01 1.001.071 1.527 1.07 1.527 1.524 1.472 1.084 1.83.827.15-.108.24-.27.24-.447-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </a>
+            </div>
+            
+            <p class="text-sm text-black mb-4 font-normal leading-relaxed">Это небольшой, но супер полезный инструмент (сервис), который решает вечную головную боль программистов — нормальный импорт данных из Excel и выгрузку обратно.
+
+                Написал его, потому что надоело каждый раз руками настраивать парсинг строк и стили для таблиц. Здесь все автоматизировано и готово к работе.</p>
+            
+            <div class="flex flex-wrap gap-2">
+            <span class="text-xs bg-cyan-500/10 text-cyan-600 font-medium px-2.5 py-1 rounded-md">C#</span>
+            <span class="text-xs bg-cyan-500/10 text-cyan-600 font-medium px-2.5 py-1 rounded-md">ASP.NET 8</span>
+            <span class="text-xs bg-cyan-500/10 text-cyan-600 font-medium px-2.5 py-1 rounded-md">REST API</span>
+            <span class="text-xs bg-cyan-500/10 text-cyan-600 font-medium px-2.5 py-1 rounded-md">Entity Framework</span>
+            <span class="text-xs bg-emerald-500/10 text-emerald-600 font-medium px-2.5 py-1 rounded-md">SQL Server</span>
+            </div> 
+        </div>
+    </div>
+
+    <!-- 5 -->
+
+    <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-[0_10px_30px_rgba(6,182,212,0.1)] transition-all duration-300 group">
+    <img src="/Files/Project/control.jpg" alt="Проект" class="w-full h-48 object-cover group-hover:scale-102 transition-transform">
+    
+        <div class="p-6">
+            <div class="flex justify-between items-start mb-2">
+            <h3 class="text-xl font-bold text-cyan-500 group-hover:text-cyan-600 transition-colors">Система контроля посещаемости сотрудников</h3>
+            
+            <a href="https://github.com/MurodLolaev/FactoryAccessControl" target="_blank" class="text-gray-500 hover:text-black transition-colors">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.0.069-.0.0.01 1.001.071 1.527 1.07 1.527 1.524 1.472 1.084 1.83.827.15-.108.24-.27.24-.447-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </a>
+            </div>
+            
+            <p class="text-sm text-black mb-4 font-normal leading-relaxed">Проект реализован на ASP.NET Core 7.0 с использованием чистой архитектуры и принципов SOLID.
+                Позволяет отслеживать приход и уход сотрудников на завод, вести учет смен, а также получать статистику нарушений рабочего времени.</p>
+            
+            <div class="flex flex-wrap gap-2">
+            <span class="text-xs bg-cyan-500/10 text-cyan-600 font-medium px-2.5 py-1 rounded-md">C#</span>
+            <span class="text-xs bg-cyan-500/10 text-cyan-600 font-medium px-2.5 py-1 rounded-md">ASP.NET 7</span>
+            <span class="text-xs bg-cyan-500/10 text-cyan-600 font-medium px-2.5 py-1 rounded-md">REST API</span>
+            <span class="text-xs bg-cyan-500/10 text-cyan-600 font-medium px-2.5 py-1 rounded-md">Dapper / ADO Net</span>
+            <span class="text-xs bg-emerald-500/10 text-emerald-600 font-medium px-2.5 py-1 rounded-md">SQL Server</span>
+            </div> 
+        </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Контакты -->
+ <section id="contacts" class="py-20 px-6 min-h-[60vh] flex items-center justify-center font-sans bg-slate-50">
+  
+  <!-- ЦЕНТРАЛЬНАЯ КАРТОЧКА (Светлый Glassmorphism) -->
+  <div class="w-full max-w-xl bg-white/60 border border-white/80 p-8 md:p-10 rounded-3xl backdrop-blur-md shadow-2xl shadow-cyan-100/80 text-center">
+    
+    <!-- Яркий неоновый заголовок -->
+    <h2 class="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-600 mb-4 drop-shadow-[0_2px_8px_rgba(6,182,212,0.3)]">
+      Связаться со мной
+    </h2>
+    
+    <p class="text-gray-600 mb-10 leading-relaxed font-medium max-w-md mx-auto">
+      Буду рад обсудить предложения о работе, стажировках или совместных проектах. Пишите или звоните в любое время!
+    </p>
+    
+    <!-- Список контактов -->
+    <div class="space-y-4 max-w-sm mx-auto text-left">
+      
+      <!-- Телефон -->
+      <a href="tel:+992985630599" class="flex items-center gap-4 text-gray-700 hover:text-cyan-600 transition-all duration-300 group">
+        <span class="p-3 bg-white/80 rounded-2xl border border-gray-200/50 group-hover:border-cyan-400 group-hover:bg-cyan-50 group-hover:shadow-md group-hover:shadow-cyan-200/50 transition-all">📞</span>
+        <span class="font-semibold group-hover:drop-shadow-[0_0_8px_rgba(6,182,212,0.4)]">+992 985 63 05 99</span>
+      </a>
+
+      <!-- Telegram -->
+      <a href="https://t.me/Murod99L" target="_blank" class="flex items-center gap-4 text-gray-700 hover:text-cyan-600 transition-all duration-300 group">
+        <span class="p-3 bg-white/80 rounded-2xl border border-gray-200/50 group-hover:border-cyan-400 group-hover:bg-cyan-50 group-hover:shadow-md group-hover:shadow-cyan-200/50 transition-all">✈️</span>
+        <span class="font-semibold group-hover:drop-shadow-[0_0_8px_rgba(6,182,212,0.4)]">Telegram: @Murod99L</span>
+      </a>
+
+      <!-- Email -->
+      <a href="mailto:murod99_99@bk.ru" class="flex items-center gap-4 text-gray-700 hover:text-cyan-600 transition-all duration-300 group">
+        <span class="p-3 bg-white/80 rounded-2xl border border-gray-200/50 group-hover:border-cyan-400 group-hover:bg-cyan-50 group-hover:shadow-md group-hover:shadow-cyan-200/50 transition-all">✉️</span>
+        <span class="font-semibold group-hover:drop-shadow-[0_0_8px_rgba(6,182,212,0.4)]">murod99_99@bk.ru</span>
+      </a>
+
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/lolaev-murod99" target="_blank" class="flex items-center gap-4 text-gray-700 hover:text-cyan-600 transition-all duration-300 group">
+        <span class="p-3 bg-white/80 rounded-2xl border border-gray-200/50 group-hover:border-cyan-400 group-hover:bg-cyan-50 group-hover:shadow-md group-hover:shadow-cyan-200/50 transition-all">💼</span>
+        <span class="font-semibold group-hover:drop-shadow-[0_0_8px_rgba(6,182,212,0.4)]">LinkedIn профиль</span>
+      </a>
+      
+    </div>
+  </div>
+  
+</section>
+
+<!-- Подвал -->
+<footer class="mt-20 bg-slate-950/75 backdrop-blur-md border-t border-white/10 py-12 px-6">
+      <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+    
+    <div class="text-center md:text-left">
+      <p class="text-white font-semibold text-lg">Лолаев Мурод</p>
+      <p class="text-sm text-gray-400 mt-1">© 2026 Все права защищены.</p>
+      <p class="text-xs text-cyan-400/80 mt-2 flex items-center justify-center md:justify-start gap-1.5">
+        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+        Доступен для новых проектов и предложений
+      </p>
+    </div>   
+
+    <div class="flex items-center gap-4">
+      <a href="https://t.me/Murod99L" target="_blank" class="p-2.5 bg-white/5 border border-white/10 rounded-xl text-gray-400 hover:text-cyan-400 hover:border-cyan-400/50 transition-all hover:-translate-y-1" title="Telegram">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .24z"/>
+        </svg>
+      </a>
+
+      <a href="https://github.com/MurodLolaev" target="_blank" class="p-2.5 bg-white/5 border border-white/10 rounded-xl text-gray-400 hover:text-cyan-400 hover:border-cyan-400/50 transition-all hover:-translate-y-1" title="GitHub">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.0.069-.0.0.01 1.001.071 1.527 1.07 1.527 1.524 1.472 1.084 1.83.827.15-.108.24-.27.24-.447-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+        </svg>
+      </a>
+    </div>
+
+  </div>
+</footer>
+
+<!-- Модалка -->
+<div id="cert-modal" class="fixed inset-0 z-50 hidden bg-black/90 backdrop-blur-md flex items-center justify-center p-4" onclick="closeModal()">
+        <img id="modal-img" src="" class="max-w-full max-h-[90vh] rounded-xl shadow-2xl border border-white/20 transition-transform duration-300 scale-95">
+    </div>
+
+<!-- Вызов Js -->
+<script src="/JS/main.js"></script>
+</body>
+</html>
